@@ -43,7 +43,7 @@ nginx-rs:
 		docker-compose run --rm web service nginx restart
 
 nginx-rl:
-		# restart nginx
+		# reload nginx config
 		docker-compose run --rm web service nginx reload
 
 
